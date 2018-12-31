@@ -1,11 +1,11 @@
 # Matrix-Library_JS
 A basic matrix library containing the basic operating functions.
 
-  ___*.create([i,j]___: matrix dimension, containerValue, theshold: for the NN dropout);
+  *.create([i,j]: matrix dimension, containerValue, theshold: for the NN dropout);
   
-  ___*.matrix___: show original matrix;
+  *.matrix: show original matrix;
 
-  ___*.shape()___: print the dimension of the matrix;
+  *.shape(): print the dimension of the matrix;
 
   *.show(): print the matrix with the corrsponding demension;
 
