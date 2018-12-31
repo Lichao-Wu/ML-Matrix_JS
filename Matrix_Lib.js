@@ -1,5 +1,4 @@
 //Matrix opertation libaray for JS
-//Arthur: L.Wu
 
 //testBench(); 
 function Matrix() {
@@ -36,11 +35,9 @@ function Matrix() {
         return matrixContainer;
     };
     this.inv = function () {
-        //if the matrix isn't square: exit (error)
         if (this.matrix.length !== this.matrix[0].length) {
             throw "Error: the matrix isn't square";
         }
-        //create the identity matrix (matrixContainer), and a dummy (dummyMatrix) of the original
         var i = 0, ii = 0, j = 0, dim = this.matrix.length, element = 0, t = 0;
         var matrixContainer = new Matrix();
         matrixContainer.create([dim, dim], 0);
@@ -56,7 +53,6 @@ function Matrix() {
                 dummyMatrix[i][j] = this.matrix[i][j];
             }
         }
-        // Perform elementary row operations
         for (i = 0; i < dim; i += 1) {
             element = dummyMatrix[i][i];
             if (element === 0) {
@@ -74,7 +70,6 @@ function Matrix() {
                     }
                 }
                 element = dummyMatrix[i][i];
-                //if the element is still zero: exit (error)
                 if (element === 0) {
                     throw "Error: the matrix is not invertable";
                 }
@@ -255,7 +250,6 @@ function testBench() {
     matrix1.create([2, 4]);
     matrix1.show();
     print("===Create===");
-//print(matrix1.shape());
     var matrix2 = new Matrix();
     matrix2.create([2, 4]);
     matrix2.show();
