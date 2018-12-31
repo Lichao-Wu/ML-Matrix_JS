@@ -1,6 +1,8 @@
 # Matrix-Library_JS
 A basic matrix library containing the basic operating functions.
-|`___斜粗体2___`|___斜粗体2___|
+
+___斜粗体2___
+
   *.create([i,j]: matrix dimension, containerValue, theshold: for the NN dropout);
   
   *.matrix: show original matrix;
