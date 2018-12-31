@@ -3,7 +3,7 @@ A basic matrix library containing the basic operating functions.
 
 ___斜粗体2___
 
-  *.create([i,j]: matrix dimension, containerValue, theshold: for the NN dropout);
+  ___*.create([i,j]___: matrix dimension, containerValue, theshold: for the NN dropout);
   
   *.matrix: show original matrix;
 
