@@ -2,20 +2,21 @@
 A basic matrix library containing the basic operating functions.
 
   *.create([i,j]: matrix dimension, containerValue, theshold: for the NN dropout);
-  *.matrix: original matrix;
+  
+  *.matrix: show original matrix;
 
-  *.shape(): print matrix with coressponding dimension;
+  *.shape(): print the dimension of the matrix;
 
-  *.show(): print the matrix with corrsponding demension;
+  *.show(): print the matrix with the corrsponding demension;
 
-  *.T(): transport matrix;
+  *.T(): transpose matrix;
 
-  *.dot(M): multiply matrix with M elemently;
+  *.dot(M): multiply matrix with M elemently (broadcasting);
 
-  *.dot(M, "/"): devide matrix with M elemently;
+  *.dot(M, "/"): devide matrix with M elemently (broadcasting);
 
   *.mul(M): multiply matrix with M;
 
-  *.add(M): add matrix with M elemently;
+  *.add(M): add matrix with M elemently (broadcasting);
 
-  *.add(M, "-"): minus matrix with M elemently.
+  *.add(M, "-"): minus matrix with M elemently (broadcasting).
