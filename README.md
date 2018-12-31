@@ -5,7 +5,7 @@ ___斜粗体2___
 
   ___*.create([i,j]___: matrix dimension, containerValue, theshold: for the NN dropout);
   
-  *.matrix: show original matrix;
+  ___*.matrix___: show original matrix;
 
   *.shape(): print the dimension of the matrix;
 
