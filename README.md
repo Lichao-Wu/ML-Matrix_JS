@@ -1,7 +1,9 @@
-# Matrix(2D)-Library_JS
-This is a function contains basic matrix computation and operation method. 
-Get start by coping the function directly to your code, or create your own seperate library by modifing it.
-Notice: this function is designed paticularly for the 2D matrix, 3D or higher demensional matrix calculation is not supported.
+# Matrix-Library_JS
+This is a function contains basic 2D matrix computation and operation method. 
+
+Get start by coping the function directly to your JS code, or create your own seperate library by modifing it.
+
+Notice: this function is designed paticularly for the 2D matrix, matrix calculation other demensional is not supported.
 ### Get started 
 ```js
 //To create a Matrix object
