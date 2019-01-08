@@ -1,7 +1,9 @@
 # ML-Matrix_JS
-This is a function including the Fundamantal 2D matrix computation and operation methods. 
+This is a function including the fundamental 2D matrix computation and operation methods. 
 
-You can use it by coping the entire function to the source code, or create your own library by modifing it.
+You can use it by copying the entire function to the source code or create your own library by modifying it.
+
+If you find any bugs or have any feedback, contact me please :) we together can make this work better!
 
 ### Get started 
 ```js
