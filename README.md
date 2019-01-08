@@ -1,5 +1,14 @@
 # Matrix-Library_JS
-A basic matrix library containing the basic operating functions.
+A matrix library for computation and operation.
+
+### Standard operations
+
+```js
+const { Matrix } = require('ml-matrix');
+
+var A = new Matrix([[1, 1], [2, 2]]);
+var B = new Matrix([[3, 3], [1, 1]]);
+var C = new Matrix([[3, 3], [1, 1]]);
 
   *.create([i,j]: matrix dimension, containerValue, theshold: for the NN dropout);
   
