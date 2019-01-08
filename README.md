@@ -1,15 +1,14 @@
-# Matrix-Library_JS
-This is a function contains basic 2D matrix computation and operation method. 
+# ML-Matrix_JS
+This is a function including the Fundamantal 2D matrix computation and operation methods. 
 
-Get start by coping the function directly to your JS code, or create your own seperate library by modifing it.
+You can use it by coping the entire function to the source code, or create your own library by modifing it.
 
-Notice: this function is designed paticularly for the 2D matrix, matrix calculation other demensional is not supported.
 ### Get started 
 ```js
-//To create a Matrix object
+//Create a new Matrix object
 var A = new Matrix()
 
-//To transfer the properties to a defined matrix
+//Transfer the properties to a defined matrix
 var B = new Matrix([[1, 1], [2, 2]]);
 ```
 ### single matrix operations
@@ -18,17 +17,17 @@ var B = new Matrix([[1, 1], [2, 2]]);
 var A = new Matrix();
 A.create([2, 2]); //a 2x2 matrix with ramdom elements (0 to 1)
 A.create([2, 2], 0); //a 2x2 matrix with all zero elements
-A.create([2, 2], "", 0.5); // Set the element value to one when smaller than 0.5 or to zero in contrast (for the drop-out)
+A.create([2, 2], "", 0.5); // Set the element value to one when smaller than 0.5 or to zero in contrast
 
-//get matrix: *.matrix
+//get the matrix: *.matrix
 var B = new Matrix([[1, 2, 3], [4, 5, 6]]);
 B.matrix; //return [[1, 2, 3], [4, 5, 6]]
 
-//print a matrix: *.show()
+//print the matrix: *.show()
 B.show(); //print 1, 2, 3
           //      4, 5, 6
 
-//get matrix shape: *.shape()
+//get the matrix shape: *.shape()
 B.shape(); //return [2, 3]
 
 //Transpose: *.T()
